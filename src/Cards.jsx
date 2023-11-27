@@ -5,12 +5,7 @@ import {
   faEnvelope,
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  Typography,
-} from "@material-tailwind/react";
+import { Card, CardBody, Typography } from "@material-tailwind/react";
 
 const Cards = ({ userData }) => {
   return (
@@ -20,7 +15,7 @@ const Cards = ({ userData }) => {
           <div className="h-80 flex items-center justify-center">
             <img
               src={userData.picture.large}
-              alt="profile-picture"
+              alt=""
               className="object-fill rounded-full"
             />
           </div>
